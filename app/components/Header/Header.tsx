@@ -10,7 +10,7 @@ const Header: React.FC<IHeader> = () => {
       <AppBar position='static'>
         <Container maxWidth='xl'>
           <Toolbar disableGutters>
-            <QrCode sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+            <QrCode sx={{ display: { xs: 'flex', md: 'flex' }, mr: 1 }} />
             <Typography
               variant='h6'
               noWrap
@@ -18,7 +18,7 @@ const Header: React.FC<IHeader> = () => {
               href='/'
               sx={{
                 mr: 2,
-                display: { xs: 'none', md: 'flex' },
+                display: { xs: 'flex', md: 'flex' },
                 fontFamily: 'monospace',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
