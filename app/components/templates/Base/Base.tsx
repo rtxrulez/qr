@@ -1,9 +1,9 @@
 import s from './Base.module.scss'
 
-export interface IBaseTemplate {}
+export interface IBase {}
 
-const BaseTemplate: React.FC<IBaseTemplate> = () => {
+const Base: React.FC<IBase> = () => {
   return <div className={s.container}>Hello world!</div>
 }
 
-export default BaseTemplate
+export default Base
